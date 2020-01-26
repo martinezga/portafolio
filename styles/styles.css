@@ -1,0 +1,185 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/*paleta: https://www.color-hex.com/color-palette/71784*/
+.header-section {
+  padding: 40px 0 0 0;
+  text-align: center;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  background-size: cover;
+}
+.avatar {
+  border-radius: 50%;
+  width: 120px;
+}
+.text-color-main {
+  color: rgb(27,133,184);
+}
+.main-content-text {
+  font-size: larger;
+  font-weight: 700;
+}
+.navbar {
+  background: rgb(1,31,75);
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+.navbar a {
+  padding: 10px 7px;
+  text-decoration: none;
+  color: rgb(255,255,255);
+}
+.btn {
+margin: 5px;
+}
+.btn a {
+  background: rgb(27,133,184);
+  text-decoration: none;
+  display: block;
+  padding: 10px 20px;  
+  color: rgb(255,255,255);
+}
+.btn2 {
+  margin: 5px;
+  font-weight: 700;
+}
+.btn2 a {
+  text-decoration: none;
+  display: block;
+  padding: 10px 15px;  
+  color: rgb(1,31,75);
+}
+.btn3 a {
+  border: rgb(1,31,75) 1px solid;
+}
+.btn:hover a {
+  animation: buttom-animation 5s linear 0.3s infinite alternate;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+@keyframes buttom-animation {
+  0%   {background-color:red; }
+  25%  {background-color:yellow; color: rgb(0,0,0);}
+  50%  {background-color:blue; }
+  75%  {background-color:green; }
+  100% {background-color:red; }
+}
+.social-network i {
+  padding: 25px 15px;
+  font-size: 35px;
+  color: rgb(27, 27, 27);
+}
+.flexboxFigSection {
+  box-sizing: border-box;
+  padding: 50px 10px 20px 10px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: center;
+}
+.flexboxFigSection img {
+  max-width: 70vw;
+}
+.backgroundSection {
+  background: linear-gradient(rgb(1,31,75), rgb(27,133,184));
+  color: rgb(255, 255, 255);
+  box-sizing: border-box;
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
+.aboutMeText p {
+  box-sizing: border-box;
+  padding: 9px 15px;
+  width: 100%;
+  text-align: justify;
+}
+.aboutMeText > p > a {
+  text-decoration: none;
+  color: rgb(241, 255, 115);
+  cursor: pointer;
+}
+h2 {
+  width: 100%;
+  padding-left: 4vw;
+}
+h3 {
+  width: 100%;
+  padding: 3vw 0 0 4vw;
+}
+figure {
+  padding: 5vw;
+  text-align: center;
+}
+.projects-Block video {
+  width: 70vw;
+}
+.projects-Block img {
+  width: 70vw;
+}
+.projects-Block figure {
+  box-sizing: border-box;
+  padding: 5vw 5vw 1vw 5vw;
+  text-align: center;
+  width: 90vw;
+}
+.projects-Block figcaption {
+  width: 80vw;
+  padding: 3vw;
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
+}
+.bottomAngleLine {
+  position: absolutle;
+  bottom: 0;
+  height: 10vw;
+  width: 100%;
+}
+footer {
+  padding: 5vw 0;
+  font-size: 18px;
+  color: rgb(27, 27, 27);
+  text-align: center;
+}
+@media all and (min-width: 768px) {
+  .bottomAngleLine {
+    height: 4vw;
+  }
+  .aboutMeText {
+    display: flex;
+    flex: 1;
+    flex-flow: column wrap;
+    justify-content: center;
+  }
+  .projects-Block figure {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: start;
+    align-content: center;
+    justify-items: center;
+  }
+  .projects-Block video {
+    width: 45vw;
+  }
+  .flexboxFigSection img {
+    width: 20vw;
+  }
+  .projects-Block img {
+    width: 45vw;
+  }
+  footer {
+    padding: 4vw 0;
+  }
+}
