@@ -65,13 +65,13 @@ margin: 5px;
   font-weight: 700;
   text-transform: uppercase;
 }
-@keyframes buttom-animation {
+/*@keyframes buttom-animation {
   0%   {background-color:red; }
   25%  {background-color:yellow; color: rgb(0,0,0);}
   50%  {background-color:blue; }
   75%  {background-color:green; }
   100% {background-color:red; }
-}
+}*/
 .social-network i {
   padding: 25px 15px;
   font-size: 35px;
