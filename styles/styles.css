@@ -20,7 +20,7 @@
   color: rgb(27,133,184);
 }
 .main-content-text {
-  font-size: larger;
+  font-size: x-large;
   font-weight: 700;
 }
 .navbar {
@@ -71,7 +71,7 @@ margin: 5px;
 }
 .flexboxFigSection {
   box-sizing: border-box;
-  padding: 50px 10px 20px 10px;
+  padding: 50px 10px 10px 10px;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
@@ -105,9 +105,10 @@ h2 {
 h3 {
   width: 100%;
   padding: 3vw 0 0 4vw;
+  color: rgb(1,31,75);
 }
 figure {
-  padding: 5vw;
+  padding: 4vw 5vw;
   text-align: center;
 }
 .projects-Block video {
@@ -154,6 +155,15 @@ footer {
     flex: 1;
     flex-flow: column wrap;
     justify-content: center;
+  }
+  .aboutMeText p {
+    font-size: 1.3vw;
+  }
+  h3 {
+    font-size: 1.5vw;
+  }
+  figcaption {
+    font-size: 1.4vw;
   }
   .projects-Block figure {
     display: flex;
